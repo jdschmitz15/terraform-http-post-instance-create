@@ -40,13 +40,13 @@ variable "insights_workloads" {
 variable "segmentation_type" {
   description = "Type of Segmentation license"
   type        = string
-  default     = "PAID"
+  default     = "FREE_TRIAL"
 }
 
 variable "segmentation_workloads" {
   description = "Number of workloads for Segmentation license"
   type        = number
-  default     = 100
+  default     = 0
 }
 
 variable "license_days" {
@@ -55,8 +55,8 @@ variable "license_days" {
   default     = 7 
 }
 
-# variable "expiration_days" {
-#   description = "Number of days for license duration"
-#   type        = number
-#   default     = 7 
-# }
+variable "expiration_days" {
+  description = "Number of days for license duration"
+  type        = number
+  default     = 1 
+}

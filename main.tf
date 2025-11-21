@@ -69,7 +69,7 @@ locals {
       }
     }
     generateApiKey    = true
-    # tenant_expiration = "${var.expiration_days}"
+    tenant_expiration = "${var.expiration_days}"
   })
 }
 

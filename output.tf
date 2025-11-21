@@ -1,6 +1,6 @@
-#output "debug_raw_response" {
-#  value = data.http.post_request.response_body
-#}
+# output "debug_raw_response" {
+#  value = local.response
+# }
 # --- Output values ---
 output "user_email" {
   value = local.response.users[0].email
