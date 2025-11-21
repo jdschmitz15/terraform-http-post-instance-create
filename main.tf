@@ -8,8 +8,8 @@ terraform {
 }
 
 resource "random_integer" "email_num" {
-  min = 1000
-  max = 9999
+  min = 100000
+  max = 999999
 } 
 
 resource "random_pet" "first_name" {
