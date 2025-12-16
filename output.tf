@@ -1,6 +1,10 @@
 # output "debug_raw_response" {
 #  value = local.response
 # }
+
+output "message" {
+ value = local.response.message
+}
 # --- Output values ---
 output "user_email" {
   value = local.response.users[0].email

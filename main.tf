@@ -63,8 +63,8 @@ locals {
         type               = "${var.segmentation_type}"
         start              = "${local.start}"
         end                = "${local.end}"
-        name               = "Illumio Segmentation"
-        planName           = "Segmentation Trial Plan"
+        name               = "Illumio Segmentation Free Trial"
+        planName           = "Segmentation Free Trial"
         workloadsLicensed  = "${var.segmentation_workloads}"
       }
     }

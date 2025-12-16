@@ -52,7 +52,7 @@ variable "segmentation_workloads" {
 variable "license_days" {
   description = "Number of days for license duration"
   type        = number
-  default     = 7 
+  default     = 1 
 }
 
 variable "expiration_days" {
