@@ -86,7 +86,7 @@ data "http" "post_request" {
   request_body = local.payload
 
   retry {
-    attempts     = 4             # Total of 6 requests (initial + 5 retries)
+    attempts     = 9             # Total of 10 requests (initial + 9 retries)
     min_delay_ms = 1000           # Minimum delay of 1 seconds
     max_delay_ms = 5000          # Maximum delay of 5 seconds
   }
