@@ -38,7 +38,6 @@ locals {
     preferred_region  = "${var.preferred_region}"
     country_code      = "${var.country_code}"
     pce_fqdn          = "${var.pce_cluster_name}"
-    store_rbac        = true
     optional_features = ["magiclinks_enabled"]
     settings = {
       auth = {
